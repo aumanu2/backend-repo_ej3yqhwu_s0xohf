@@ -1,19 +1,23 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [205] using StatReload
-INFO:     Started server process [207]
+INFO:     Started reloader process [256] using StatReload
+INFO:     Started server process [258]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:33518 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:33466 - "GET /featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33490 - "GET /new-arrivals HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33490 - "GET /new-arrivals HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33466 - "GET /featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33504 - "GET /featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33480 - "GET /new-arrivals HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33480 - "GET /new-arrivals HTTP/1.1" 200 OK
-INFO:     172.20.0.1:33504 - "GET /featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:40986 - "GET /featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:40996 - "GET /new-arrivals HTTP/1.1" 200 OK
-INFO:     172.20.0.1:40986 - "GET /featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:40996 - "GET /new-arrivals HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47200 - "OPTIONS /featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47202 - "OPTIONS /new-arrivals HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47230 - "OPTIONS /featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47244 - "OPTIONS /new-arrivals HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47256 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:47240 - "GET /new-arrivals HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47218 - "GET /featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47240 - "GET /new-arrivals HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47218 - "GET /featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47202 - "GET /new-arrivals HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47200 - "GET /featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47202 - "GET /new-arrivals HTTP/1.1" 200 OK
+INFO:     172.20.0.1:47200 - "GET /featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58756 - "GET /featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58762 - "GET /new-arrivals HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58756 - "GET /featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58762 - "GET /new-arrivals HTTP/1.1" 200 OK
